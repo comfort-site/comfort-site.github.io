@@ -43,9 +43,9 @@ $(function() {
             $(".adv-circle-element-6").delay(3000).fadeTo(1000, 1);
 
 
-        } else if($(this).scrollTop() <= 1900 ){
-            $(".adv-circle-element-1, .adv-circle-element-2, .adv-circle-element-3," +
-                ".adv-circle-element-4, .adv-circle-element-5, .adv-circle-element-6").fadeTo(1500, 0);
+        // } else if($(this).scrollTop() <= 1900 ){
+        //     $(".adv-circle-element-1, .adv-circle-element-2, .adv-circle-element-3," +
+        //         ".adv-circle-element-4, .adv-circle-element-5, .adv-circle-element-6").fadeTo(1500, 0);
         }
     });//scroll
 
