@@ -1,0 +1,66 @@
+html {
+  font-size: 62.5%;
+}
+
+@import "http://webfonts.ru/import/opensans.css";
+/*Open Sans, 300, 300 italic, 400, 400 italic, 600, 600 italic, 700, 700 italic, 800, 800 italic*/
+@font-face {
+  font-family: RobotoRegular; /* RobotoRegular */
+  src: url(../font/ofont.ru_Roboto.ttf);
+}
+html {
+  height:100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  //background-image: url('../images/main-header-bg.png');
+  //background-size: 100% 100%;
+  //background-repeat:no-repeat;
+  //height:100%;
+  //background-position: center center;
+}
+
+footer {
+  font-family: RobotoRegular, Calibri, sans-serif;
+}
+
+.icon(@scale: 1.2) {
+  &:hover {
+    img, i {
+      transform: scale(@scale);
+    }
+  }
+  img, i {
+    transition: .3s transform;
+  }
+}
+.header-inl {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.title {
+  text-align: center;
+  margin:0 auto 10rem;
+  padding-top:10rem;
+
+}
+
+.RowInl {
+  &>[class^=col] {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    margin: 0 -2px;
+  }
+}
+
+@menu-active: #f0bf5e;
+@text-color: #fff;
+@menu-search: #3a3836;
+@gradient-color-0: #bb8a2d;
+@gradient-color-100: #d7c046;
+@bg-footer-atwork: #242020;

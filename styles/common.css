@@ -1,0 +1,44 @@
+html {
+  font-size: 62.5%;
+}
+@font-face {
+  font-family: ShellyAllegroC;
+  /* ShellyAllegroC */
+  src: url(../font/ofont.ru_ShellyAllegroC.ttf);
+}
+@font-face {
+  font-family: OpenSansSemibold;
+  /* Open Sans Semibold */
+  src: url("../font/ofont.ru_Open Sans Semibold.ttf");
+}
+@font-face {
+  font-family: OpenSansExtrabold;
+  /* Open Sans Extrabold */
+  src: url(../font/ofont.ru_OpenSansExtrabold.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  /* RobotoRegular */
+  src: url(../font/ofont.ru_Roboto.ttf);
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: OpenSansSemibold, sans-serif;
+  overflow-x: hidden;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+footer {
+  font-family: RobotoRegular, Calibri, sans-serif;
+}
+.header-inl {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}

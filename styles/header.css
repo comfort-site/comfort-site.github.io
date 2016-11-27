@@ -1,0 +1,116 @@
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100%;
+}
+.header-fixed .HeaderMain-logo {
+  display: none !important;
+}
+.header-fixed .Header-col_phones,
+.header-fixed .HeaderMain-col_social {
+  display: none !important;
+}
+.header-fixed .HeaderMain-col_lang {
+  float: right;
+}
+.default {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100%;
+}
+.HeaderMain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.93);
+  padding: 1.5rem 0;
+  z-index: 99999;
+}
+.HeaderMain .HeaderMain-row {
+  margin: 0 -0.5rem;
+}
+.HeaderMain .HeaderMain-col {
+  padding: 0 .5rem;
+  display: inline-block;
+  margin: 0 -2px;
+  vertical-align: middle;
+}
+.HeaderMain .HeaderMain-col.HeaderMain-col_logo {
+  width: 20%;
+}
+.HeaderMain .HeaderMain-col.HeaderMain-col_menu {
+  width: 46.1%;
+}
+.HeaderMain .HeaderMain-logo img {
+  width: 100%;
+  height: auto;
+}
+.MainMenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.MainMenu .MainMenu-item {
+  display: inline-block;
+}
+.MainMenu .MainMenu-item:last-child:after {
+  display: none;
+}
+.MainMenu .MainMenu-item:after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #f0bf5e;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+.MainMenu .MainMenu-link {
+  font-size: 1.2rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.MainMenu .MainMenu-link:hover,
+.MainMenu .MainMenu-link:focus,
+.MainMenu .MainMenu-link.MainMenu-link_active {
+  color: #f0bf5e;
+  text-decoration: none;
+}
+.Phone {
+  color: white;
+}
+.SocialList {
+  margin: 0;
+  padding: 0 1rem;
+  list-style: none;
+  text-align: center;
+}
+.SocialList .SocialList-item {
+  padding: 1rem 0;
+}
+.LangSelect:hover > .dropdown-menu {
+  display: block;
+}
+.LangSelect .LangSelect-btn {
+  border: 1px solid white;
+  color: white;
+  padding: .3rem 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.LangSelect .LangSelect-btn:hover {
+  text-decoration: none;
+}
