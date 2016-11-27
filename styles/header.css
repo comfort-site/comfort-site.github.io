@@ -34,7 +34,7 @@
   left: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0.93);
-  padding: 1.5rem 0;
+  padding: 1.3rem 0;
   z-index: 99999;
 }
 .HeaderMain .HeaderMain-row {
@@ -47,10 +47,10 @@
   vertical-align: middle;
 }
 .HeaderMain .HeaderMain-col.HeaderMain-col_logo {
-  width: 20%;
+  width: 18%;
 }
 .HeaderMain .HeaderMain-col.HeaderMain-col_menu {
-  width: 46.1%;
+  width: 48.1%;
 }
 .HeaderMain .HeaderMain-logo img {
   width: 100%;
@@ -75,7 +75,7 @@
   background-color: #f0bf5e;
   border-radius: 50%;
   vertical-align: middle;
-  margin: 0 .5rem;
+  margin: 0 .4rem;
 }
 .MainMenu .MainMenu-link {
   font-size: 1.2rem;
@@ -100,6 +100,9 @@
 }
 .SocialList .SocialList-item {
   padding: 1rem 0;
+}
+.LangSelect .HeaderMain-col_lang {
+  float: right;
 }
 .LangSelect:hover > .dropdown-menu {
   display: block;
